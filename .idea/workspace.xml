@@ -11,13 +11,38 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a3245a-83bf-4b10-a7b6-8c183b5bdbca" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/_problems.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem1.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem2.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem3.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem4.cpp" />
+    <list default="true" id="55a3245a-83bf-4b10-a7b6-8c183b5bdbca" name="Default" comment="Add DM">
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/_problems.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalence.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalenceUpdate.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/isomorphism.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/_problems.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/automaton.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/epsilon.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/nfc.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/useless.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/_problems.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/chvatal.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/fullham.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/guyaury.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/interactiv.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/_problems.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/check.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/cycles.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/destroy.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/matching.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/schedule.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Euqulid.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/MakePlan.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Squares.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/_problems.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/untitled.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/_problems.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/absmarkchain.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/exam.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/lottery.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/markchain.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/shooter.cpp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,102 +56,30 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Search6.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Search6.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5271">
-              <caret line="251" column="3" lean-forward="false" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchSinS.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Strings/SearchSinS.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shifts.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Shifts.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2961">
-              <caret line="141" column="1" lean-forward="false" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringEquals.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Strings/StringEquals.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Substr3.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Substr3.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4179">
-              <caret line="199" column="1" lean-forward="false" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zf.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Zf.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="problem1.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Automat/problem1.cpp">
+      <file leaf-file-name="Squares.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Squares.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem2.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Automat/problem2.cpp">
+      <file leaf-file-name="untitled.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/untitled.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1953">
-              <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem3.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Automat/problem3.cpp">
+      <file leaf-file-name="absmarkchain.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/absmarkchain.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3045">
+            <state relative-caret-position="774">
               <caret line="145" column="2" lean-forward="false" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -135,11 +88,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem4.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Automat/problem4.cpp">
+      <file leaf-file-name="exam.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/exam.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1971">
-              <caret line="113" column="2" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
+            <state relative-caret-position="378">
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lottery.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/lottery.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isomorphism.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/isomorphism.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -155,27 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithms/Decomposition/ConnectedTrees.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Algorithms/Decomposition/Decomposition.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Decomposition/Grass.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Decomposition/Mail.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Decomposition/SizeTrees.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/bridges.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/cond.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/cycle.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/fire.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/game.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/hamiltonian.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/pathbge1.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/points.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/shortpath.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/spantree2.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/strong.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Graphs/topsort.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/LCA/ancestor.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/LCA/carno.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/LCA/dynamic.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/LCA/LCA3.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/LCA/LCAoffline.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/LCA/LCArevisited.cpp" />
@@ -206,6 +162,27 @@
         <option value="$PROJECT_DIR$/DiscreteMathematics/Automat/problem2.cpp" />
         <option value="$PROJECT_DIR$/DiscreteMathematics/Automat/problem3.cpp" />
         <option value="$PROJECT_DIR$/DiscreteMathematics/Automat/problem4.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalence.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalenceUpdate.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/automaton.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/epsilon.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/nfc.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/useless.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Hamilton/chvatal.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Hamilton/fullham.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Hamilton/guyaury.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Hamilton/interactiv.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Matroids/check.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Matroids/cycles.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Matroids/destroy.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Matroids/matching.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/Matroids/schedule.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/TerVer/absmarkchain.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/TerVer/exam.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/TerVer/lottery.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/TerVer/markchain.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/TerVer/shooter.cpp" />
+        <option value="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/isomorphism.cpp" />
       </list>
     </option>
   </component>
@@ -251,12 +228,6 @@
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="DiscreteMathematics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Labs" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscreteMathematics" type="462c0819:PsiDirectoryNode" />
-              <item name="Automat" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -270,11 +241,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Code\Labs\DiscreteMathematics\Automat" />
-      <recent name="C:\Code\Labs\Algorithms\Strings" />
-      <recent name="C:\Code\Labs\Algorithms\ShortPaths" />
-      <recent name="C:\Code\Labs\Algorithms\LCA" />
-      <recent name="C:\Code\Labs\Algorithms\Graphs" />
+      <recent name="C:\Code\Labs\DiscreteMathematics\TerVer" />
+      <recent name="C:\Code\Labs\DiscreteMathematics\PlanarGraphs" />
+      <recent name="C:\Code\Labs\DiscreteMathematics\Matroids" />
+      <recent name="C:\Code\Labs\DiscreteMathematics\Hamilton" />
+      <recent name="C:\Code\Labs\DiscreteMathematics\CFgrammar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,18 +286,28 @@
       <option name="presentableId" value="Default" />
       <updated>1517948065267</updated>
       <workItem from="1517948067248" duration="3388000" />
-      <workItem from="1517996398631" duration="845000" />
+      <workItem from="1517996398631" duration="2021000" />
     </task>
+    <task id="LOCAL-00001" summary="Add DM">
+      <created>1517997278903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517997278903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4233000" />
+    <option name="totallyTimeSpent" value="5409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -336,7 +317,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -351,190 +331,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add DM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DM" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Decomposition/ConnectedTreesUpdate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1231">
-          <caret line="254" column="17" lean-forward="false" selection-start-line="254" selection-start-column="17" selection-end-line="254" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Decomposition/Decomposition.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Decomposition/Grass.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="233" column="1" lean-forward="false" selection-start-line="233" selection-start-column="1" selection-end-line="233" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Decomposition/Mail.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="234" column="1" lean-forward="false" selection-start-line="234" selection-start-column="1" selection-end-line="234" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Decomposition/SizeTrees.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="310" column="3" lean-forward="false" selection-start-line="310" selection-start-column="3" selection-end-line="310" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/bridges.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/cond.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="149" column="2" lean-forward="false" selection-start-line="149" selection-start-column="2" selection-end-line="149" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/cycle.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="105" column="2" lean-forward="false" selection-start-line="105" selection-start-column="2" selection-end-line="105" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/fire.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="71" column="1" lean-forward="false" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/game.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="101" column="2" lean-forward="false" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/hamiltonian.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="121" column="1" lean-forward="false" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/pathbge1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/points.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/shortpath.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="105" column="2" lean-forward="false" selection-start-line="105" selection-start-column="2" selection-end-line="105" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/spantree2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="64" column="2" lean-forward="false" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/strong.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="128" column="2" lean-forward="false" selection-start-line="128" selection-start-column="2" selection-end-line="128" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Graphs/topsort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="96" column="2" lean-forward="false" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/LCA/ancestor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="217" column="1" lean-forward="false" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/LCA/carno.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/LCA/dynamic.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="174" column="2" lean-forward="false" selection-start-line="174" selection-start-column="2" selection-end-line="174" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/LCA/LCA3.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="164" column="1" lean-forward="false" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/LCA/LCAoffline.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/LCA/LCArevisited.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="141" column="1" lean-forward="false" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/LCA/LCAtests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="101" column="1" lean-forward="false" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/LCA/minonpath.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -704,7 +509,7 @@
         <state relative-caret-position="354">
           <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -714,7 +519,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,7 +529,7 @@
         <state relative-caret-position="1953">
           <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -734,7 +539,7 @@
         <state relative-caret-position="3045">
           <caret line="145" column="2" lean-forward="false" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="2" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -743,6 +548,245 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1971">
           <caret line="113" column="2" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="112" column="2" lean-forward="false" selection-start-line="112" selection-start-column="2" selection-end-line="112" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalenceUpdate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/automaton.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/epsilon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/nfc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="98" column="2" lean-forward="false" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/useless.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Hamilton/chvatal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Hamilton/fullham.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Hamilton/guyaury.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Hamilton/interactiv.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Matroids/check.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="138" column="1" lean-forward="false" selection-start-line="138" selection-start-column="1" selection-end-line="138" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Matroids/cycles.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#69#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Matroids/destroy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="90" column="2" lean-forward="false" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Matroids/matching.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Matroids/schedule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Euqulid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/MakePlan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Squares.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/untitled.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/absmarkchain.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="145" column="2" lean-forward="false" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/exam.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/shooter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/markchain.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/TerVer/lottery.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/isomorphism.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
