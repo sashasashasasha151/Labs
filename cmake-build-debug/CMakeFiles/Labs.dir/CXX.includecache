@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Code/Labs/Algorithms/Decomposition/ConnectedTreesUpdate.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+ctime
+-
+random
+-
+map
+-
+string
+-
+iterator
+-
+
