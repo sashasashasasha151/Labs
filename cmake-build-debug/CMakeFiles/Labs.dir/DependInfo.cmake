@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Code/Labs/Algorithms/Decomposition/ConnectedTreesUpdate.cpp" "C:/Code/Labs/cmake-build-debug/CMakeFiles/Labs.dir/Algorithms/Decomposition/ConnectedTreesUpdate.cpp.obj"
+  "C:/Code/Labs/Algorithms/Streams/flow.cpp" "C:/Code/Labs/cmake-build-debug/CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,4 +3,4 @@ project(Labs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Labs Algorithms/Decomposition/ConnectedTreesUpdate.cpp)
+add_executable(Labs Algorithms/Streams/flow.cpp)

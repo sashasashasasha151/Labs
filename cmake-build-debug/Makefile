@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4127.6\bin\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4127.6\bin\cmake\bin\cmake.exe -E remove -f
+RM = C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\cmake\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Code\Labs\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4127.6\bin\cmake\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\cmake\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4127.6\bin\cmake\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\cmake\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,32 +122,32 @@ Labs/fast:
 	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/build
 .PHONY : Labs/fast
 
-Algorithms/Decomposition/ConnectedTreesUpdate.obj: Algorithms/Decomposition/ConnectedTreesUpdate.cpp.obj
+Algorithms/Streams/flow.obj: Algorithms/Streams/flow.cpp.obj
 
-.PHONY : Algorithms/Decomposition/ConnectedTreesUpdate.obj
+.PHONY : Algorithms/Streams/flow.obj
 
 # target to build an object file
-Algorithms/Decomposition/ConnectedTreesUpdate.cpp.obj:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Decomposition/ConnectedTreesUpdate.cpp.obj
-.PHONY : Algorithms/Decomposition/ConnectedTreesUpdate.cpp.obj
+Algorithms/Streams/flow.cpp.obj:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.obj
+.PHONY : Algorithms/Streams/flow.cpp.obj
 
-Algorithms/Decomposition/ConnectedTreesUpdate.i: Algorithms/Decomposition/ConnectedTreesUpdate.cpp.i
+Algorithms/Streams/flow.i: Algorithms/Streams/flow.cpp.i
 
-.PHONY : Algorithms/Decomposition/ConnectedTreesUpdate.i
+.PHONY : Algorithms/Streams/flow.i
 
 # target to preprocess a source file
-Algorithms/Decomposition/ConnectedTreesUpdate.cpp.i:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Decomposition/ConnectedTreesUpdate.cpp.i
-.PHONY : Algorithms/Decomposition/ConnectedTreesUpdate.cpp.i
+Algorithms/Streams/flow.cpp.i:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.i
+.PHONY : Algorithms/Streams/flow.cpp.i
 
-Algorithms/Decomposition/ConnectedTreesUpdate.s: Algorithms/Decomposition/ConnectedTreesUpdate.cpp.s
+Algorithms/Streams/flow.s: Algorithms/Streams/flow.cpp.s
 
-.PHONY : Algorithms/Decomposition/ConnectedTreesUpdate.s
+.PHONY : Algorithms/Streams/flow.s
 
 # target to generate assembly for a file
-Algorithms/Decomposition/ConnectedTreesUpdate.cpp.s:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Decomposition/ConnectedTreesUpdate.cpp.s
-.PHONY : Algorithms/Decomposition/ConnectedTreesUpdate.cpp.s
+Algorithms/Streams/flow.cpp.s:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.s
+.PHONY : Algorithms/Streams/flow.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Labs
 	@echo ... edit_cache
-	@echo ... Algorithms/Decomposition/ConnectedTreesUpdate.obj
-	@echo ... Algorithms/Decomposition/ConnectedTreesUpdate.i
-	@echo ... Algorithms/Decomposition/ConnectedTreesUpdate.s
+	@echo ... Algorithms/Streams/flow.obj
+	@echo ... Algorithms/Streams/flow.i
+	@echo ... Algorithms/Streams/flow.s
 .PHONY : help
 
 

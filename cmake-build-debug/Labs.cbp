@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Code/Labs/Algorithms/Decomposition/ConnectedTreesUpdate.cpp">
+		<Unit filename="C:/Code/Labs/Algorithms/Streams/flow.cpp">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Code/Labs/CMakeLists.txt">
