@@ -27,8 +27,8 @@ bool c(int k) {
 }
 
 int main() {
-    ifstream cin("negcycle.in");
-    ofstream cout("negcycle.out");
+//    ifstream cin("negcycle.in");
+//    ofstream cout("negcycle.out");
     int n;
     cin >> n;
     ptr = new vector<int>[n];

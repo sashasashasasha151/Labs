@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Code/Labs/Algorithms/Decomposition/ConnectedTreesUpdate.cpp
+C:/Code/Labs/Algorithms/Streams/flow.cpp
 iostream
 -
 vector
 -
+queue
+-
 algorithm
 -
-ctime
--
-random
--
-map
--
-string
--
-iterator
+fstream
 -
 
