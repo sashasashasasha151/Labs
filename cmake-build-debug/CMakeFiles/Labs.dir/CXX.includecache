@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Code/Labs/Algorithms/Streams/flow.cpp
+C:/Code/Labs/Algorithms/Streams/cut.cpp
 iostream
 -
 vector

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.obj"
+  "CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj"
   "Labs.pdb"
   "Labs.exe"
   "Labs.exe.manifest"

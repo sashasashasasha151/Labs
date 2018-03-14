@@ -122,32 +122,32 @@ Labs/fast:
 	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/build
 .PHONY : Labs/fast
 
-Algorithms/Streams/flow.obj: Algorithms/Streams/flow.cpp.obj
+Algorithms/Streams/cut.obj: Algorithms/Streams/cut.cpp.obj
 
-.PHONY : Algorithms/Streams/flow.obj
+.PHONY : Algorithms/Streams/cut.obj
 
 # target to build an object file
-Algorithms/Streams/flow.cpp.obj:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.obj
-.PHONY : Algorithms/Streams/flow.cpp.obj
+Algorithms/Streams/cut.cpp.obj:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj
+.PHONY : Algorithms/Streams/cut.cpp.obj
 
-Algorithms/Streams/flow.i: Algorithms/Streams/flow.cpp.i
+Algorithms/Streams/cut.i: Algorithms/Streams/cut.cpp.i
 
-.PHONY : Algorithms/Streams/flow.i
+.PHONY : Algorithms/Streams/cut.i
 
 # target to preprocess a source file
-Algorithms/Streams/flow.cpp.i:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.i
-.PHONY : Algorithms/Streams/flow.cpp.i
+Algorithms/Streams/cut.cpp.i:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.i
+.PHONY : Algorithms/Streams/cut.cpp.i
 
-Algorithms/Streams/flow.s: Algorithms/Streams/flow.cpp.s
+Algorithms/Streams/cut.s: Algorithms/Streams/cut.cpp.s
 
-.PHONY : Algorithms/Streams/flow.s
+.PHONY : Algorithms/Streams/cut.s
 
 # target to generate assembly for a file
-Algorithms/Streams/flow.cpp.s:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/flow.cpp.s
-.PHONY : Algorithms/Streams/flow.cpp.s
+Algorithms/Streams/cut.cpp.s:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.s
+.PHONY : Algorithms/Streams/cut.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Labs
 	@echo ... edit_cache
-	@echo ... Algorithms/Streams/flow.obj
-	@echo ... Algorithms/Streams/flow.i
-	@echo ... Algorithms/Streams/flow.s
+	@echo ... Algorithms/Streams/cut.obj
+	@echo ... Algorithms/Streams/cut.i
+	@echo ... Algorithms/Streams/cut.s
 .PHONY : help
 
 
