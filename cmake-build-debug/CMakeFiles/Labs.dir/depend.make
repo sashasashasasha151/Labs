@@ -3,3 +3,5 @@
 
 CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj: ../Algorithms/Streams/cut.cpp
 
+CMakeFiles/Labs.dir/Algorithms/Streams/snails.cpp.obj: ../Algorithms/Streams/snails.cpp
+

@@ -122,32 +122,59 @@ Labs/fast:
 	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/build
 .PHONY : Labs/fast
 
-Algorithms/Streams/cut.obj: Algorithms/Streams/cut.cpp.obj
+Algorithms/Streams/king.obj: Algorithms/Streams/king.cpp.obj
 
-.PHONY : Algorithms/Streams/cut.obj
+.PHONY : Algorithms/Streams/king.obj
 
 # target to build an object file
-Algorithms/Streams/cut.cpp.obj:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj
-.PHONY : Algorithms/Streams/cut.cpp.obj
+Algorithms/Streams/king.cpp.obj:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj
+.PHONY : Algorithms/Streams/king.cpp.obj
 
-Algorithms/Streams/cut.i: Algorithms/Streams/cut.cpp.i
+Algorithms/Streams/king.i: Algorithms/Streams/king.cpp.i
 
-.PHONY : Algorithms/Streams/cut.i
+.PHONY : Algorithms/Streams/king.i
 
 # target to preprocess a source file
-Algorithms/Streams/cut.cpp.i:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.i
-.PHONY : Algorithms/Streams/cut.cpp.i
+Algorithms/Streams/king.cpp.i:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.i
+.PHONY : Algorithms/Streams/king.cpp.i
 
-Algorithms/Streams/cut.s: Algorithms/Streams/cut.cpp.s
+Algorithms/Streams/king.s: Algorithms/Streams/king.cpp.s
 
-.PHONY : Algorithms/Streams/cut.s
+.PHONY : Algorithms/Streams/king.s
 
 # target to generate assembly for a file
-Algorithms/Streams/cut.cpp.s:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.s
-.PHONY : Algorithms/Streams/cut.cpp.s
+Algorithms/Streams/king.cpp.s:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.s
+.PHONY : Algorithms/Streams/king.cpp.s
+
+Algorithms/Streams/pair_graph.obj: Algorithms/Streams/pair_graph.cpp.obj
+
+.PHONY : Algorithms/Streams/pair_graph.obj
+
+# target to build an object file
+Algorithms/Streams/pair_graph.cpp.obj:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj
+.PHONY : Algorithms/Streams/pair_graph.cpp.obj
+
+Algorithms/Streams/pair_graph.i: Algorithms/Streams/pair_graph.cpp.i
+
+.PHONY : Algorithms/Streams/pair_graph.i
+
+# target to preprocess a source file
+Algorithms/Streams/pair_graph.cpp.i:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.i
+.PHONY : Algorithms/Streams/pair_graph.cpp.i
+
+Algorithms/Streams/pair_graph.s: Algorithms/Streams/pair_graph.cpp.s
+
+.PHONY : Algorithms/Streams/pair_graph.s
+
+# target to generate assembly for a file
+Algorithms/Streams/pair_graph.cpp.s:
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.s
+.PHONY : Algorithms/Streams/pair_graph.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Labs
 	@echo ... edit_cache
-	@echo ... Algorithms/Streams/cut.obj
-	@echo ... Algorithms/Streams/cut.i
-	@echo ... Algorithms/Streams/cut.s
+	@echo ... Algorithms/Streams/king.obj
+	@echo ... Algorithms/Streams/king.i
+	@echo ... Algorithms/Streams/king.s
+	@echo ... Algorithms/Streams/pair_graph.obj
+	@echo ... Algorithms/Streams/pair_graph.i
+	@echo ... Algorithms/Streams/pair_graph.s
 .PHONY : help
 
 

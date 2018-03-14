@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj"
+  "CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj"
+  "CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj"
   "Labs.pdb"
   "Labs.exe"
   "Labs.exe.manifest"

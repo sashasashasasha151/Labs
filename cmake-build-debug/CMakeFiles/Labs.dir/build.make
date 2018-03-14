@@ -56,43 +56,69 @@ include CMakeFiles/Labs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Labs.dir/flags.make
 
-CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj: CMakeFiles/Labs.dir/flags.make
-CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj: ../Algorithms/Streams/cut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Code\Labs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj"
-	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Labs.dir\Algorithms\Streams\cut.cpp.obj -c C:\Code\Labs\Algorithms\Streams\cut.cpp
+CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj: CMakeFiles/Labs.dir/flags.make
+CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj: ../Algorithms/Streams/pair_graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Code\Labs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Labs.dir\Algorithms\Streams\pair_graph.cpp.obj -c C:\Code\Labs\Algorithms\Streams\pair_graph.cpp
 
-CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.i"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\Labs\Algorithms\Streams\cut.cpp > CMakeFiles\Labs.dir\Algorithms\Streams\cut.cpp.i
+CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.i"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\Labs\Algorithms\Streams\pair_graph.cpp > CMakeFiles\Labs.dir\Algorithms\Streams\pair_graph.cpp.i
 
-CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.s"
-	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\Labs\Algorithms\Streams\cut.cpp -o CMakeFiles\Labs.dir\Algorithms\Streams\cut.cpp.s
+CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.s"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\Labs\Algorithms\Streams\pair_graph.cpp -o CMakeFiles\Labs.dir\Algorithms\Streams\pair_graph.cpp.s
 
-CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.requires:
+CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.requires
+.PHONY : CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.requires
 
-CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.provides: CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.provides.build
-.PHONY : CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.provides
+CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.provides: CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.provides.build
+.PHONY : CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.provides
 
-CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.provides.build: CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj
+CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.provides.build: CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj
+
+
+CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj: CMakeFiles/Labs.dir/flags.make
+CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj: ../Algorithms/Streams/king.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Code\Labs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj"
+	C:\MinGW\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Labs.dir\Algorithms\Streams\king.cpp.obj -c C:\Code\Labs\Algorithms\Streams\king.cpp
+
+CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.i"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\Labs\Algorithms\Streams\king.cpp > CMakeFiles\Labs.dir\Algorithms\Streams\king.cpp.i
+
+CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.s"
+	C:\MinGW\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\Labs\Algorithms\Streams\king.cpp -o CMakeFiles\Labs.dir\Algorithms\Streams\king.cpp.s
+
+CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.requires
+
+CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.provides: CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.provides.build
+.PHONY : CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.provides
+
+CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.provides.build: CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj
 
 
 # Object files for target Labs
 Labs_OBJECTS = \
-"CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj"
+"CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj" \
+"CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj"
 
 # External object files for target Labs
 Labs_EXTERNAL_OBJECTS =
 
-Labs.exe: CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj
+Labs.exe: CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj
+Labs.exe: CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj
 Labs.exe: CMakeFiles/Labs.dir/build.make
 Labs.exe: CMakeFiles/Labs.dir/linklibs.rsp
 Labs.exe: CMakeFiles/Labs.dir/objects1.rsp
 Labs.exe: CMakeFiles/Labs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Code\Labs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Labs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Code\Labs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Labs.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Labs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,7 +126,8 @@ CMakeFiles/Labs.dir/build: Labs.exe
 
 .PHONY : CMakeFiles/Labs.dir/build
 
-CMakeFiles/Labs.dir/requires: CMakeFiles/Labs.dir/Algorithms/Streams/cut.cpp.obj.requires
+CMakeFiles/Labs.dir/requires: CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj.requires
+CMakeFiles/Labs.dir/requires: CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj.requires
 
 .PHONY : CMakeFiles/Labs.dir/requires
 

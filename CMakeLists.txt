@@ -3,4 +3,4 @@ project(Labs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Labs Algorithms/Streams/cut.cpp)
+add_executable(Labs Algorithms/Streams/pair_graph.cpp Algorithms/Streams/king.cpp)
