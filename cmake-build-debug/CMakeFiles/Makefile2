@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = C:\Code\Labs\cmake-build-debug
 CMakeFiles/Labs.dir/all:
 	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/depend
 	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Code\Labs\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Labs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Code\Labs\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Labs"
 .PHONY : CMakeFiles/Labs.dir/all
 
 # Include target in all.
@@ -75,7 +75,7 @@ all: CMakeFiles/Labs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Labs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\Labs\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\Labs\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Labs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\Labs\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Labs.dir/rule

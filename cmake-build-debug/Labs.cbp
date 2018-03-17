@@ -83,9 +83,6 @@
 		<Unit filename="C:/Code/Labs/Algorithms/Streams/king.cpp">
 			<Option target="Labs"/>
 		</Unit>
-		<Unit filename="C:/Code/Labs/Algorithms/Streams/pair_graph.cpp">
-			<Option target="Labs"/>
-		</Unit>
 		<Unit filename="C:/Code/Labs/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

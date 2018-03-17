@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Code/Labs/Algorithms/Streams/cut.cpp
+C:/Code/Labs/Algorithms/Streams/king.cpp
 iostream
 -
 vector
+-
+string
 -
 queue
 -
 algorithm
 -
-
-C:/Code/Labs/Algorithms/Streams/snails.cpp
+unordered_map
+-
+map
+-
 

@@ -149,33 +149,6 @@ Algorithms/Streams/king.cpp.s:
 	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.s
 .PHONY : Algorithms/Streams/king.cpp.s
 
-Algorithms/Streams/pair_graph.obj: Algorithms/Streams/pair_graph.cpp.obj
-
-.PHONY : Algorithms/Streams/pair_graph.obj
-
-# target to build an object file
-Algorithms/Streams/pair_graph.cpp.obj:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.obj
-.PHONY : Algorithms/Streams/pair_graph.cpp.obj
-
-Algorithms/Streams/pair_graph.i: Algorithms/Streams/pair_graph.cpp.i
-
-.PHONY : Algorithms/Streams/pair_graph.i
-
-# target to preprocess a source file
-Algorithms/Streams/pair_graph.cpp.i:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.i
-.PHONY : Algorithms/Streams/pair_graph.cpp.i
-
-Algorithms/Streams/pair_graph.s: Algorithms/Streams/pair_graph.cpp.s
-
-.PHONY : Algorithms/Streams/pair_graph.s
-
-# target to generate assembly for a file
-Algorithms/Streams/pair_graph.cpp.s:
-	$(MAKE) -f CMakeFiles\Labs.dir\build.make CMakeFiles/Labs.dir/Algorithms/Streams/pair_graph.cpp.s
-.PHONY : Algorithms/Streams/pair_graph.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +161,6 @@ help:
 	@echo ... Algorithms/Streams/king.obj
 	@echo ... Algorithms/Streams/king.i
 	@echo ... Algorithms/Streams/king.s
-	@echo ... Algorithms/Streams/pair_graph.obj
-	@echo ... Algorithms/Streams/pair_graph.i
-	@echo ... Algorithms/Streams/pair_graph.s
 .PHONY : help
 
 
