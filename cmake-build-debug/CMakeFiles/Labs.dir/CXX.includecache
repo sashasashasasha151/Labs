@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Code/Labs/Algorithms/Streams/king.cpp
+/home/sasha/Code/Labs/Algorithms/Easy/very_big_easy.cpp
 iostream
 -
 vector
 -
-string
--
-queue
--
-algorithm
--
-unordered_map
--
-map
+ctime
 -
 

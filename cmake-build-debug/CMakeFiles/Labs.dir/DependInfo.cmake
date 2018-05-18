@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Code/Labs/Algorithms/Streams/king.cpp" "C:/Code/Labs/cmake-build-debug/CMakeFiles/Labs.dir/Algorithms/Streams/king.cpp.obj"
+  "/home/sasha/Code/Labs/Algorithms/Easy/very_big_easy.cpp" "/home/sasha/Code/Labs/cmake-build-debug/CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

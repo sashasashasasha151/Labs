@@ -11,25 +11,135 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a3245a-83bf-4b10-a7b6-8c183b5bdbca" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithms/Streams/king.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Streams/snails.cpp" afterDir="false" />
+    <list default="true" id="55a3245a-83bf-4b10-a7b6-8c183b5bdbca" name="Default" comment="movable complete">
+      <change afterPath="$PROJECT_DIR$/Algorithms/Easy/china.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Easy/easy_find.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Easy/factor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Easy/very_big_easy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/MinCostFlow/assignment.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/MinCostFlow/mincost.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/MinCostFlow/mincost.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/MinCostFlow/rps2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/MinCostFlow/ships.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Streams/chess.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Streams/competition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Streams/flows.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Streams/insepts.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Decomposition/BlackWhiteTrees.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Decomposition/BlackWhiteTrees.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Decomposition/ConnectedTrees.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Decomposition/ConnectedTrees.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Decomposition/ConnectedTreesUpdate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Decomposition/ConnectedTreesUpdate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Decomposition/Decomposition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Decomposition/Decomposition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Decomposition/Grass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Decomposition/Grass.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Decomposition/Mail.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Decomposition/Mail.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Decomposition/SizeTrees.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Decomposition/SizeTrees.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/bridges.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/bridges.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/cond.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/cond.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/cycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/fire.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/fire.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/hamiltonian.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/hamiltonian.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/pathbge1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/pathbge1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/points.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/points.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/shortpath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/shortpath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/spantree2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/spantree2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/strong.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/strong.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Graphs/topsort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Graphs/topsort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/LCA3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/LCA3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/LCAoffline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/LCAoffline.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/LCArevisited.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/LCArevisited.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/LCAtests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/LCAtests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/ancestor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/ancestor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/carno.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/carno.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/dynamic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/dynamic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/minonpath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/minonpath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/LCA/tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/LCA/tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/ShortPaths/negcycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/ShortPaths/negcycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/ShortPaths/path1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/ShortPaths/path1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/ShortPaths/pathbgep.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/ShortPaths/pathbgep.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/ShortPaths/pathmgep.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/ShortPaths/pathmgep.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/ShortPaths/pathsg.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/ShortPaths/pathsg.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/ShortPaths/testpath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/ShortPaths/testpath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Streams/cut.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Streams/cut.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Streams/flow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Streams/flow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Streams/king.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Streams/king.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Streams/movableUpdate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Streams/movableUpdate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Streams/moveble.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Streams/moveble.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Streams/pair_graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Streams/pair_graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Streams/snails.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Streams/snails.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Cycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Cycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Period.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Period.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Pref.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Pref.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Refrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Refrain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Search4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Search4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Search5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Search5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Search6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Search6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/SearchSinS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/SearchSinS.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Shifts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Shifts.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/StringEquals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/StringEquals.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Substr3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Substr3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Strings/Zf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Strings/Zf.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Automat/problem4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalence.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalenceUpdate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalenceUpdate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/isomorphism.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/isomorphism.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/automaton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/epsilon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/epsilon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/nfc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/nfc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/useless.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/CFgrammar/useless.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/chvatal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/chvatal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/fullham.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/fullham.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/guyaury.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/guyaury.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/interactiv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Hamilton/interactiv.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Matroids/check.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/check.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Matroids/cycles.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/cycles.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Matroids/destroy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/destroy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Matroids/matching.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/matching.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/Matroids/schedule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/Matroids/schedule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Euqulid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Euqulid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/MakePlan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/MakePlan.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Squares.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/Squares.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/untitled.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/PlanarGraphs/untitled.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/TerVer/absmarkchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/absmarkchain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/TerVer/exam.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/exam.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/TerVer/lottery.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/lottery.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/TerVer/markchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/markchain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscreteMathematics/TerVer/shooter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DiscreteMathematics/TerVer/shooter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/objects1.rsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Labs.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Labs.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Labs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Labs.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored mask="rest-client.private.env.json" />
@@ -44,11 +154,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="snails.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Streams/snails.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="44" column="1" lean-forward="true" selection-start-line="15" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factor.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/Easy/factor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -56,11 +175,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="king.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Streams/king.cpp">
+      <file leaf-file-name="china.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/Easy/china.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="very_big_easy.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/Easy/very_big_easy.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="84" column="36" lean-forward="true" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -68,11 +196,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cut.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/Streams/cut.cpp">
+      <file leaf-file-name="easy_find.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/Easy/easy_find.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -86,13 +214,20 @@
     <findStrings>
       <find>n</find>
       <find>edge</find>
-      <find>int</find>
       <find>0</find>
       <find>map</find>
+      <find>INT_</find>
+      <find>double</find>
+      <find>edges</find>
+      <find>long long int</find>
+      <find>int</find>
     </findStrings>
     <replaceStrings>
-      <replace>long long int</replace>
       <replace>mapp</replace>
+      <replace>unsigned double</replace>
+      <replace>E</replace>
+      <replace>int</replace>
+      <replace>long long int</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -101,19 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithms/ShortPaths/pathbgep.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/ShortPaths/pathmgep.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/ShortPaths/pathsg.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/ShortPaths/testpath.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Array.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Cycle.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Period.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Pref.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Refrain.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Search4.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Search5.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/Search6.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Strings/SearchSinS.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/Strings/Shifts.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/Strings/StringEquals.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/Strings/Substr3.cpp" />
@@ -147,11 +269,24 @@
         <option value="$PROJECT_DIR$/Algorithms/Streams/flow_test.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/Streams/flow.in" />
         <option value="$PROJECT_DIR$/Algorithms/Streams/flow.cpp" />
-        <option value="$PROJECT_DIR$/Algorithms/Streams/pair_graph.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/Streams/cut.cpp" />
         <option value="$PROJECT_DIR$/Algorithms/Streams/snails.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Algorithms/Streams/king.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Streams/moveble.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Streams/movableUpdate.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Streams/competition.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Streams/chess.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Streams/insepts.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/MinCostFlow/mincost.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/MinCostFlow/assignment.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/MinCostFlow/rps2.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/MinCostFlow/ships.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Streams/pair_graph.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Easy/easy_find.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Easy/factor.cpp" />
+        <option value="$PROJECT_DIR$/Algorithms/Easy/china.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Algorithms/Easy/very_big_easy.cpp" />
       </list>
     </option>
   </component>
@@ -161,11 +296,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-29" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="width" value="960" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -192,7 +328,7 @@
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="Easy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,11 +345,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\Labs\Algorithms\Streams" />
       <recent name="C:\Code\Labs\DiscreteMathematics\TerVer" />
       <recent name="C:\Code\Labs\DiscreteMathematics\PlanarGraphs" />
       <recent name="C:\Code\Labs\DiscreteMathematics\Matroids" />
       <recent name="C:\Code\Labs\DiscreteMathematics\Hamilton" />
-      <recent name="C:\Code\Labs\DiscreteMathematics\CFgrammar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,7 +391,20 @@
       <workItem from="1520870703653" duration="70000" />
       <workItem from="1520870964302" duration="15320000" />
       <workItem from="1520936604761" duration="24089000" />
-      <workItem from="1521190431924" duration="20749000" />
+      <workItem from="1521190431924" duration="21850000" />
+      <workItem from="1522065826768" duration="5509000" />
+      <workItem from="1522319189738" duration="4475000" />
+      <workItem from="1522661042320" duration="2344000" />
+      <workItem from="1522921525054" duration="30000" />
+      <workItem from="1524163875320" duration="5280000" />
+      <workItem from="1524247338349" duration="22002000" />
+      <workItem from="1524654861061" duration="11000" />
+      <workItem from="1525429847956" duration="6379000" />
+      <workItem from="1525507437253" duration="51000" />
+      <workItem from="1526034242919" duration="906000" />
+      <workItem from="1526368138353" duration="3032000" />
+      <workItem from="1526376528049" duration="7678000" />
+      <workItem from="1526474457052" duration="17099000" />
     </task>
     <task id="LOCAL-00001" summary="Add DM">
       <created>1517997278903</created>
@@ -299,27 +448,48 @@
       <option name="project" value="LOCAL" />
       <updated>1521064670346</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="snails complite">
+      <created>1521272327915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521272327915</updated>
+    </task>
+    <task id="LOCAL-00008" summary="king complite">
+      <created>1521272362009</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1521272362009</updated>
+    </task>
+    <task id="LOCAL-00009" summary="movable complete">
+      <created>1522666622525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522666622525</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70322000" />
+    <option name="totallyTimeSpent" value="146219000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1039" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13681428" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48604062" visible="true" weight="0.13697916" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4990086" weight="0.5833333" />
-      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.49966997" weight="0.32816902" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4990086" weight="0.76648647" />
+      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.49966997" weight="0.18702702" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.47175142" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990099" weight="0.21610169" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4990099" visible="true" weight="0.14810811" />
+      <window_info id="Structure" order="1" sideWeight="0.5139594" side_tool="true" visible="true" weight="0.13697916" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4990099" visible="true" weight="0.23305085" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4990099" weight="0.37513512" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -341,133 +511,88 @@
     <MESSAGE value="flow complite" />
     <MESSAGE value="cut complite" />
     <MESSAGE value="pair_graph complite" />
-    <option name="LAST_COMMIT_MESSAGE" value="pair_graph complite" />
+    <MESSAGE value="snails complite" />
+    <MESSAGE value="king complite" />
+    <MESSAGE value="movable complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="movable complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithms/Streams/movableUpdate.cpp</url>
+          <line>165</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithms/Streams/competition.cpp</url>
+          <line>177</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithms/Streams/chess.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithms/Streams/insepts.cpp</url>
+          <line>77</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithms/MinCostFlow/ships.cpp</url>
+          <line>185</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithms/Easy/easy_find.cpp</url>
+          <line>8</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithms/Easy/very_big_easy.cpp</url>
+          <line>40</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="47" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="E[r - 1]" />
+        <watch expression="edges" language="ObjectiveC" />
+        <watch expression="easy" language="ObjectiveC" />
+        <watch expression="workers" language="ObjectiveC" />
+        <watch expression="link" language="ObjectiveC" />
+        <watch expression="link" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>link</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>workers</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>easy</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>edges</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Refrain.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Search4.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
-          <caret line="165" column="3" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Search5.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3318">
-          <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Search6.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5271">
-          <caret line="251" column="3" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/SearchSinS.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Shifts.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2961">
-          <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/StringEquals.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Substr3.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4179">
-          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Strings/Zf.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Automat/problem2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Automat/problem3.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
-          <caret line="145" column="2" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/Automat/problem4.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="113" column="2" selection-start-line="113" selection-start-column="2" selection-end-line="113" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalence.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="112" column="2" selection-start-line="112" selection-start-column="2" selection-end-line="112" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/AutomatMinimization/equivalenceUpdate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/automaton.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/epsilon.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/nfc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DiscreteMathematics/CFgrammar/useless.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -610,96 +735,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/Streams/flow.in" />
     <entry file="file://$PROJECT_DIR$/Algorithms/Streams/flow_test.cpp" />
-    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/pair_graph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/Streams/flow.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/alloc_traits.h" />
+    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/vector.tcc" />
+    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/stl_bvector.h" />
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/cut.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/stl_vector.h" />
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/snails.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="1" selection-start-line="15" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/hashtable_policy.h" />
+    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/stl_tree.h" />
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/king.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="224" column="2" selection-start-line="224" selection-start-column="2" selection-end-line="224" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/moveble.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="136" column="20" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/movableUpdate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="156" selection-start-line="156" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/competition.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="184" column="31" selection-start-line="184" selection-start-column="31" selection-end-line="184" selection-end-column="31" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/alloc_traits.h">
+    <entry file="file:///usr/include/c++/7.3.0/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="474" column="6" selection-start-line="474" selection-start-column="6" selection-end-line="474" selection-end-column="6" />
+        <state relative-caret-position="318">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/vector.tcc">
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/chess.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="788">
+          <caret line="211" column="46" selection-start-line="211" selection-start-column="46" selection-end-line="211" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/stl_bvector.h">
+    <entry file="file://$PROJECT_DIR$/Algorithms/MinCostFlow/rps2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="3230">
+          <caret line="190" column="1" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/MinCostFlow/mincost.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="172" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7.3.0/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/insepts.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/pair_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/MinCostFlow/ships.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3077">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/MinCostFlow/assignment.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Easy/easy_find.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7.3.0/numeric">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Easy/factor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/Easy/china.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/cut.cpp">
+    <entry file="file://$PROJECT_DIR$/Algorithms/Easy/very_big_easy.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="797" selection-start-line="797" selection-end-line="797" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/snails.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="15" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/hashtable_policy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="259" selection-start-line="259" selection-end-line="259" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MinGW/MinGW/include/c++/7.3.0/bits/stl_tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/Streams/king.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="1428">
+          <caret line="84" column="36" lean-forward="true" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

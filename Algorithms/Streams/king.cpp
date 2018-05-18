@@ -217,9 +217,9 @@ int main() {
             prin[i / n][i % n] = '+';
         }
     }
-    for (int i = 0; i < prin.size(); ++i) {
-        cout << prin[i] << "\n";
-    }
+//    for (int i = 0; i < prin.size(); ++i) {
+//        cout << prin[i] << "\n";
+//    }
 }
 
 /*
