@@ -123,32 +123,32 @@ Labs/fast:
 	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/build
 .PHONY : Labs/fast
 
-Algorithms/Easy/very_big_easy.o: Algorithms/Easy/very_big_easy.cpp.o
+DiscreteMathematics/Turing/mirror.o: DiscreteMathematics/Turing/mirror.cpp.o
 
-.PHONY : Algorithms/Easy/very_big_easy.o
+.PHONY : DiscreteMathematics/Turing/mirror.o
 
 # target to build an object file
-Algorithms/Easy/very_big_easy.cpp.o:
-	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o
-.PHONY : Algorithms/Easy/very_big_easy.cpp.o
+DiscreteMathematics/Turing/mirror.cpp.o:
+	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o
+.PHONY : DiscreteMathematics/Turing/mirror.cpp.o
 
-Algorithms/Easy/very_big_easy.i: Algorithms/Easy/very_big_easy.cpp.i
+DiscreteMathematics/Turing/mirror.i: DiscreteMathematics/Turing/mirror.cpp.i
 
-.PHONY : Algorithms/Easy/very_big_easy.i
+.PHONY : DiscreteMathematics/Turing/mirror.i
 
 # target to preprocess a source file
-Algorithms/Easy/very_big_easy.cpp.i:
-	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.i
-.PHONY : Algorithms/Easy/very_big_easy.cpp.i
+DiscreteMathematics/Turing/mirror.cpp.i:
+	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.i
+.PHONY : DiscreteMathematics/Turing/mirror.cpp.i
 
-Algorithms/Easy/very_big_easy.s: Algorithms/Easy/very_big_easy.cpp.s
+DiscreteMathematics/Turing/mirror.s: DiscreteMathematics/Turing/mirror.cpp.s
 
-.PHONY : Algorithms/Easy/very_big_easy.s
+.PHONY : DiscreteMathematics/Turing/mirror.s
 
 # target to generate assembly for a file
-Algorithms/Easy/very_big_easy.cpp.s:
-	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.s
-.PHONY : Algorithms/Easy/very_big_easy.cpp.s
+DiscreteMathematics/Turing/mirror.cpp.s:
+	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.s
+.PHONY : DiscreteMathematics/Turing/mirror.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Labs"
-	@echo "... Algorithms/Easy/very_big_easy.o"
-	@echo "... Algorithms/Easy/very_big_easy.i"
-	@echo "... Algorithms/Easy/very_big_easy.s"
+	@echo "... DiscreteMathematics/Turing/mirror.o"
+	@echo "... DiscreteMathematics/Turing/mirror.i"
+	@echo "... DiscreteMathematics/Turing/mirror.s"
 .PHONY : help
 
 

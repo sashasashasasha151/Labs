@@ -57,38 +57,38 @@ include CMakeFiles/Labs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Labs.dir/flags.make
 
-CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o: CMakeFiles/Labs.dir/flags.make
-CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o: ../Algorithms/Easy/very_big_easy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sasha/Code/Labs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o -c /home/sasha/Code/Labs/Algorithms/Easy/very_big_easy.cpp
+CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o: CMakeFiles/Labs.dir/flags.make
+CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o: ../DiscreteMathematics/Turing/mirror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sasha/Code/Labs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o -c /home/sasha/Code/Labs/DiscreteMathematics/Turing/mirror.cpp
 
-CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sasha/Code/Labs/Algorithms/Easy/very_big_easy.cpp > CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.i
+CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sasha/Code/Labs/DiscreteMathematics/Turing/mirror.cpp > CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.i
 
-CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sasha/Code/Labs/Algorithms/Easy/very_big_easy.cpp -o CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.s
+CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sasha/Code/Labs/DiscreteMathematics/Turing/mirror.cpp -o CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.s
 
-CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.requires:
+CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.requires:
 
-.PHONY : CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.requires
+.PHONY : CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.requires
 
-CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.provides: CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.provides.build
-.PHONY : CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.provides
+CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.provides: CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Labs.dir/build.make CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.provides.build
+.PHONY : CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.provides
 
-CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.provides.build: CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o
+CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.provides.build: CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o
 
 
 # Object files for target Labs
 Labs_OBJECTS = \
-"CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o"
+"CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o"
 
 # External object files for target Labs
 Labs_EXTERNAL_OBJECTS =
 
-Labs: CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o
+Labs: CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o
 Labs: CMakeFiles/Labs.dir/build.make
 Labs: CMakeFiles/Labs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sasha/Code/Labs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Labs"
@@ -99,7 +99,7 @@ CMakeFiles/Labs.dir/build: Labs
 
 .PHONY : CMakeFiles/Labs.dir/build
 
-CMakeFiles/Labs.dir/requires: CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o.requires
+CMakeFiles/Labs.dir/requires: CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o.requires
 
 .PHONY : CMakeFiles/Labs.dir/requires
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o"
+  "CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o"
   "Labs.pdb"
   "Labs"
 )

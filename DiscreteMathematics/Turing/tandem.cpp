@@ -1,0 +1,65 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int main() {
+//    ofstream cout("../DiscreteMathematics/Turing/tandem.out");
+    ofstream cout("tandem.out");
+    cout << "start: s\n"
+            "accept: ac\n"
+            "reject: rj\n"
+            "blank: _\n"
+            "\n"
+            "s 0 -> R 3 >\n"
+            "s 1 -> R 4 >\n"
+            "\n"
+            "R 0 -> R 0 >\n"
+            "R 1 -> R 1 >\n"
+            "R 5 -> St56 5 <\n"
+            "R 6 -> St56 6 <\n"
+            "R _ -> St56 _ <\n"
+            "\n"
+            "St56 0 -> L 5 <\n"
+            "St56 1 -> L 6 <\n"
+            "St56 3 -> ToS 3 <\n"
+            "St56 4 -> ToS 4 <\n"
+            "\n"
+            "L 0 -> L 0 <\n"
+            "L 1 -> L 1 <\n"
+            "L 3 -> St34 3 >\n"
+            "L 4 -> St34 4 >\n"
+            "\n"
+            "St34 0 -> R 3 >\n"
+            "St34 1 -> R 4 >\n"
+            "St34 5 -> ToS 5 <\n"
+            "St34 6 -> ToS 6 <\n"
+            "\n"
+            "ToS 3 -> ToS 3 <\n"
+            "ToS 4 -> ToS 4 <\n"
+            "ToS 5 -> ToS 5 <\n"
+            "ToS 6 -> ToS 6 <\n"
+            "ToS _ -> Tk _ >\n"
+            "ToS # -> ToS # <\n"
+            "ToS $ -> Tk $ >\n"
+            "\n"
+            "Tk 3 -> F0 $ >\n"
+            "Tk 4 -> F1 $ >\n"
+            "Tk # -> ac _ ^\n"
+            "\n"
+            "F0 3 -> F0 3 >\n"
+            "F0 4 -> F0 4 >\n"
+            "F0 5 -> ToS # <\n"
+            "F0 6 -> rj _ ^\n"
+            "F0 # -> F0 # >\n"
+            "F0 _ -> rj _ ^\n"
+            "\n"
+            "F1 3 -> F1 3 >\n"
+            "F1 4 -> F1 4 >\n"
+            "F1 5 -> rj _ ^\n"
+            "F1 6 -> ToS # <\n"
+            "F1 # -> F1 # >\n"
+            "F1 _ -> rj _ ^";
+    return 0;
+}

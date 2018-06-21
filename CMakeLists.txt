@@ -3,4 +3,4 @@ project(Labs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Labs Algorithms/Easy/very_big_easy.cpp)
+add_executable(Labs DiscreteMathematics/Turing/mirror.cpp)

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sasha/Code/Labs/Algorithms/Easy/very_big_easy.cpp
+/home/sasha/Code/Labs/DiscreteMathematics/Turing/mirror.cpp
 iostream
 -
-vector
+fstream
 -
-ctime
+string
 -
 

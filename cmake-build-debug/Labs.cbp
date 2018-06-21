@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sasha/Code/Labs/Algorithms/Easy/very_big_easy.cpp">
+		<Unit filename="/home/sasha/Code/Labs/DiscreteMathematics/Turing/mirror.cpp">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="/home/sasha/Code/Labs/CMakeLists.txt">

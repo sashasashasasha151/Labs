@@ -36,19 +36,17 @@ long long int gcd(long long int l, long long int r) {
 }
 
 int main() {
-    int n;
+    int n = 1;
     scanf("%d", &n);
     for (int i = 0; i < n; ++i) {
         long long int k;
         scanf("%lli", &k);
-
-        if (k == 2) {
-            cout << "YES\n";
+        if (k == 1) {
+            cout << "NO\n";
             continue;
         }
-
-        if (k == 1 || k % 2 == 0) {
-            cout << "NO\n";
+        if (k == 2) {
+            cout << "YES\n";
             continue;
         }
         srand(time(0));
@@ -62,9 +60,8 @@ int main() {
 
         bool easy = true;
 
-        for (int j = 0; j < 100; ++j) {
+        for (int j = 0; j < 15; ++j) {
             long long int help = rand() % (k - 2) + 2;
-            cout << help << " ";
 
             if (gcd(help, k) != 1) {
                 easy = false;
@@ -72,22 +69,24 @@ int main() {
             }
 
             long long int x = inc(help, t, k);
-            if (x == 1 /*|| x == k - 1*/) {
+            if (x == 1 || x == k - 1) {
                 continue;
             }
 
-            bool easy2 = false;
+            bool easy2 = true;
 
-            for (int ii = 0; ii < s - 1; ++ii) {
+            for (int ii = 0; ii < s; ++ii) {
                 x = bin_mul(x, x, k);
 
-//                if (x == 1) {
-//                    easy2 = false;
-//                    break;
-//                }
-                if (x == k - 1) {
-                    easy2 = true;
+                if (x == 1) {
+                    easy2 = false;
                     break;
+                }
+                if (x == k - 1) {
+                    break;
+                }
+                if(ii == s-1) {
+                    easy2 = false;
                 }
             }
             if (easy2) {

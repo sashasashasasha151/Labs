@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Labs.dir/Algorithms/Easy/very_big_easy.cpp.o  -o Labs 
+/usr/bin/c++  -g   CMakeFiles/Labs.dir/DiscreteMathematics/Turing/mirror.cpp.o  -o Labs 
