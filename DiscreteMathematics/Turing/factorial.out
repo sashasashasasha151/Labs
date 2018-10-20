@@ -1,0 +1,272 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 1 -> MP0 1 <
+MP0 _ -> MP1 _ <
+MP1 _ -> MP2 _ <
+MP2 _ -> MP3 _ <
+MP3 _ -> MP4 _ <
+MP4 _ -> MP5 _ <
+MP5 _ -> MP6 _ <
+MP6 _ -> MSet* _ <
+
+MSet* _ -> MGo1 * >
+
+MGo1 1 -> MGetS 1 >
+MGo1 4 -> MToSub 4 >
+MGo1 _ -> MGo1 _ >
+
+MGetS 0 -> MGetS 0 >
+MGetS 1 -> MGetS 1 >
+MGetS 3 -> MTakeS 3 <
+MGetS 4 -> MTakeS 4 <
+MGetS _ -> MTakeS _ <
+
+MTakeS 0 -> ML*0 3 <
+MTakeS 1 -> ML*1 4 <
+
+ML*0 0 -> ML*0 0 <
+ML*0 1 -> ML*0 1 <
+ML*0 * -> MSet0 * <
+ML*0 _ -> ML*0 _ <
+
+ML*1 0 -> ML*1 0 <
+ML*1 1 -> ML*1 1 <
+ML*1 * -> MSet1 * <
+ML*1 _ -> ML*1 _ <
+
+MSet0 0 -> MSet0 0 <
+MSet0 1 -> MSet0 1 <
+MSet0 _ -> MGo* 0 >
+
+MSet1 0 -> MSet1 0 <
+MSet1 1 -> MSet1 1 <
+MSet1 _ -> MGo* 1 >
+
+MGo* 0 -> MGo* 0 >
+MGo* 1 -> MGo* 1 >
+MGo* * -> MGo1 * >
+
+MToSub 3 -> MToSub 3 >
+MToSub 4 -> MToSub 4 >
+MToSub _ -> MSub _ <
+
+MSub 3 -> MSub 1 <
+MSub 4 -> MCheckL 0 <
+
+MCheckL 3 -> MGoS 0 <
+MCheckL 4 -> MGoS 1 <
+MCheckL _ -> MDelL _ >
+
+MDelL 0 -> MAddS _ >
+
+MGoS 3 -> MGoS 0 <
+MGoS 4 -> MGoS 1 <
+MGoS _ -> MAddS _ >
+
+MAddS 0 -> MSet*0 3 <
+MAddS 1 -> MSet*1 4 <
+MAddS _ -> Finish _ <
+
+MSet*0 0 -> MSett0 0 >
+MSet*0 1 -> MSett0 1 >
+MSet*0 3 -> MSet*0 3 <
+MSet*0 4 -> MSet*0 4 <
+MSet*0 * -> MSett0 * >
+MSet*0 _ -> MSet*0 _ <
+
+MSet*1 0 -> MSett1 0 >
+MSet*1 1 -> MSett1 1 >
+MSet*1 3 -> MSet*1 3 <
+MSet*1 4 -> MSet*1 4 <
+MSet*1 * -> MSett1 * >
+MSet*1 _ -> MSet*1 _ <
+
+MSett0 _ -> MGo34 0 >
+
+MSett1 _ -> MGo34 1 >
+
+MGo34 3 -> MFind10 3 >
+MGo34 4 -> MFind10 4 >
+MGo34 _ -> MGo34 _ >
+
+MFind10 0 -> MSet*0 3 <
+MFind10 1 -> MSet*1 4 <
+MFind10 3 -> MFind10 3 >
+MFind10 4 -> MFind10 4 >
+MFind10 _ -> ML* _ <
+
+ML* 0 -> ML* 0 <
+ML* 1 -> ML* 1 <
+ML* 3 -> ML* 3 <
+ML* 4 -> ML* 4 <
+ML* * -> MGoStrt * <
+ML* _ -> ML* _ <
+
+MGoStrt 0 -> MGoStrt 0 <
+MGoStrt 1 -> MGoStrt 1 <
+MGoStrt _ -> MulS _ >
+
+MulS 0 -> Set# 3 <
+MulS 1 -> Set# 4 <
+MulS 3 -> MulS 3 >
+MulS 4 -> MulS 4 >
+MulS * -> Set# & <
+MulS & -> MulS & >
+MulS # -> MulS # >
+MulS _ -> Set+ _ <
+
+Set# 3 -> Set# 3 <
+Set# 4 -> Set# 4 <
+Set# & -> Set# & <
+Set# # -> Set# # <
+Set# _ -> MulS # >
+
+Set+ 3 -> Set+ 3 <
+Set+ 4 -> Set+ 4 <
+Set+ & -> Set+ & <
+Set+ # -> Set+ # <
+Set+ _ -> Set0 + <
+
+Set0 # -> GetS 0 >
+Set0 _ -> GetS 0 >
+
+GetS 3 -> Set+0 # <
+GetS 4 -> Set+1 # <
+GetS & -> End & >
+GetS + -> GetS + >
+GetS # -> GetS # >
+
+Set+0 0 -> Set0 0 >
+Set+0 1 -> Set0 1 >
+Set+0 3 -> Set+0 3 <
+Set+0 4 -> Set+0 4 <
+Set+0 & -> Set+0 & <
+Set+0 + -> Set0 + >
+Set+0 # -> Set+0 # <
+
+Set+1 0 -> Set1 0 >
+Set+1 1 -> Set1 1 >
+Set+1 3 -> Set+1 3 <
+Set+1 4 -> Set+1 4 <
+Set+1 & -> Set+1 & <
+Set+1 + -> Set1 + >
+Set+1 # -> Set+1 # <
+
+Set1 # -> GetS 1 >
+
+End 3 -> End 3 >
+End 4 -> End 4 >
+End & -> End & >
+End # -> End # >
+End _ -> If _ <
+
+If 3 -> Set+0 _ <
+If 4 -> Add 3 <
+If & -> Del+ _ <
+
+Add 0 -> Add 0 <
+Add 1 -> Add 1 <
+Add 3 -> Add 3 <
+Add 4 -> Add 4 <
+Add + -> Add + <
+Add & -> Add & <
+Add # -> Add # <
+Add _ -> AddS _ >
+
+AddS 0 -> AddS 3 >
+AddS 1 -> AddS 4 >
+AddS + -> End0 + >
+
+End0 0 -> End0 0 >
+End0 1 -> End0 1 >
+End0 # -> Take0 # <
+End0 3 -> Take0 3 <
+End0 4 -> Take0 4 <
+End0 + -> End0 + >
+
+End1 0 -> End1 0 >
+End1 1 -> End1 1 >
+End1 # -> Take1 # <
+End1 3 -> Take1 3 <
+End1 4 -> Take1 4 <
+End1 + -> End1 + >
+
+Take0 0 -> Add00 3 <
+Take0 1 -> Add01 4 <
+Take0 + -> St0 + <
+
+Take1 0 -> Add10 3 <
+Take1 1 -> Add11 4 <
+Take1 + -> St1 + <
+
+St0 0 -> St0 0 <
+St0 1 -> St0 1 <
+St0 3 -> St0 0 <
+St0 4 -> St0 1 <
+St0 _ -> Go+ _ >
+
+St1 0 -> St1 0 <
+St1 1 -> St1 1 <
+St1 3 -> St0 1 <
+St1 4 -> St1 0 <
+St1 _ -> Go+ 1 >
+
+Add00 0 -> Add00 0 <
+Add00 1 -> Add00 1 <
+Add00 3 -> End0 0 >
+Add00 4 -> End0 1 >
+Add00 + -> Add00 + <
+Add00 _ -> End0 0 >
+
+Add01 0 -> Add01 0 <
+Add01 1 -> Add01 1 <
+Add01 3 -> End0 1 >
+Add01 4 -> End1 0 >
+Add01 + -> Add01 + <
+Add01 _ -> End0 1 >
+
+Add10 0 -> Add10 0 <
+Add10 1 -> Add10 1 <
+Add10 3 -> End0 1 >
+Add10 4 -> End1 0 >
+Add10 + -> Add10 + <
+Add10 _ -> End0 1 >
+
+Add11 0 -> Add11 0 <
+Add11 1 -> Add11 1 <
+Add11 3 -> End1 0 >
+Add11 4 -> End1 1 >
+Add11 + -> Add11 + <
+Add11 _ -> End1 0 >
+
+Go+ 0 -> Go+ 0 >
+Go+ 1 -> Go+ 1 >
+Go+ + -> Chg + >
+
+Chg 3 -> Chg 0 >
+Chg 4 -> Chg 1 >
+Chg # -> End # >
+
+Del+ 0 -> Del+ _ <
+Del+ 1 -> Del+ _ <
+Del+ 3 -> Del+ _ <
+Del+ 4 -> Del+ _ <
+Del+ # -> Del+ _ <
+Del+ + -> MGo1 * >
+
+Finish 0 -> Finish _ <
+Finish 1 -> Finish _ <
+Finish 3 -> Finish _ <
+Finish 4 -> Finish _ <
+Finish * -> LLL _ <
+Finish & -> Finish _ <
+Finish + -> Finish _ <
+Finish # -> Finish _ <
+Finish _ -> Finish _ <
+
+LLL 0 -> LLL 0 <
+LLL 1 -> LLL 1 <
+LLL _ -> ac _ >

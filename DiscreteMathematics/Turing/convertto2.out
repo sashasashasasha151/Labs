@@ -1,0 +1,52 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 0 -> Set# 0 <
+s 1 -> Set# 1 <
+s 2 -> Set# 2 <
+
+Set# _ -> Set3 # <
+
+Set3 _ -> ToSub 3 >
+
+ToSub 0 -> ToSub 0 >
+ToSub 1 -> ToSub 1 >
+ToSub 2 -> ToSub 2 >
+ToSub 3 -> ToSub 3 >
+ToSub 4 -> ToSub 4 >
+ToSub # -> ToSub # >
+ToSub _ -> Sub _ <
+
+Sub 0 -> Sub 2 <
+Sub 1 -> Check 0 <
+Sub 2 -> ToAdd 1 <
+Sub # -> Finn # >
+
+Finn 2 -> Fin _ <
+Finn _ -> Fin _ <
+
+Check 0 -> ToAdd 0 <
+Check 1 -> ToAdd 1 <
+Check 2 -> ToAdd 2 <
+Check # -> DelL # >
+
+DelL 0 -> ToAdd # <
+
+ToAdd 0 -> ToAdd 0 <
+ToAdd 1 -> ToAdd 1 <
+ToAdd 2 -> ToAdd 2 <
+ToAdd 3 -> ToSub 4 >
+ToAdd 4 -> Add 3 <
+ToAdd # -> ToAdd # <
+
+Add 3 -> ToSub 4 >
+Add 4 -> Add 3 <
+Add _ -> ToSub 4 >
+
+Fin 2 -> Fin _ <
+Fin 3 -> Fin 0 <
+Fin 4 -> Fin 1 <
+Fin # -> Fin _ <
+Fin _ -> ac _ >

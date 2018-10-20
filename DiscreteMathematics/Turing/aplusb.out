@@ -1,0 +1,66 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 0 -> s 3 >
+s 1 -> s 4 >
+s + -> End0 + >
+
+End0 0 -> End0 0 >
+End0 1 -> End0 1 >
+End0 _ -> Take0 _ <
+End0 + -> End0 + >
+
+End1 0 -> End1 0 >
+End1 1 -> End1 1 >
+End1 _ -> Take1 _ <
+End1 + -> End1 + >
+
+Take0 0 -> Add00 _ <
+Take0 1 -> Add01 _ <
+Take0 + -> St0 _ <
+
+Take1 0 -> Add10 _ <
+Take1 1 -> Add11 _ <
+Take1 + -> St1 _ <
+
+St0 0 -> St0 0 <
+St0 1 -> St0 1 <
+St0 3 -> St0 0 <
+St0 4 -> St0 1 <
+St0 _ -> ac _ >
+
+St1 0 -> St1 0 <
+St1 1 -> St1 1 <
+St1 3 -> St0 1 <
+St1 4 -> St1 0 <
+St1 _ -> ac 1 ^
+
+Add00 0 -> Add00 0 <
+Add00 1 -> Add00 1 <
+Add00 3 -> End0 0 >
+Add00 4 -> End0 1 >
+Add00 + -> Add00 + <
+Add00 _ -> End0 0 >
+
+Add01 0 -> Add01 0 <
+Add01 1 -> Add01 1 <
+Add01 3 -> End0 1 >
+Add01 4 -> End1 0 >
+Add01 + -> Add01 + <
+Add01 _ -> End0 1 >
+
+Add10 0 -> Add10 0 <
+Add10 1 -> Add10 1 <
+Add10 3 -> End0 1 >
+Add10 4 -> End1 0 >
+Add10 + -> Add10 + <
+Add10 _ -> End0 1 >
+
+Add11 0 -> Add11 0 <
+Add11 1 -> Add11 1 <
+Add11 3 -> End1 0 >
+Add11 4 -> End1 1 >
+Add11 + -> Add11 + <
+Add11 _ -> End1 0 >

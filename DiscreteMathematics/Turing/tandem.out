@@ -1,0 +1,54 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 0 -> R 3 >
+s 1 -> R 4 >
+
+R 0 -> R 0 >
+R 1 -> R 1 >
+R 5 -> St56 5 <
+R 6 -> St56 6 <
+R _ -> St56 _ <
+
+St56 0 -> L 5 <
+St56 1 -> L 6 <
+St56 3 -> ToS 3 <
+St56 4 -> ToS 4 <
+
+L 0 -> L 0 <
+L 1 -> L 1 <
+L 3 -> St34 3 >
+L 4 -> St34 4 >
+
+St34 0 -> R 3 >
+St34 1 -> R 4 >
+St34 5 -> ToS 5 <
+St34 6 -> ToS 6 <
+
+ToS 3 -> ToS 3 <
+ToS 4 -> ToS 4 <
+ToS 5 -> ToS 5 <
+ToS 6 -> ToS 6 <
+ToS _ -> Tk _ >
+ToS # -> ToS # <
+ToS $ -> Tk $ >
+
+Tk 3 -> F0 $ >
+Tk 4 -> F1 $ >
+Tk # -> ac _ ^
+
+F0 3 -> F0 3 >
+F0 4 -> F0 4 >
+F0 5 -> ToS # <
+F0 6 -> rj _ ^
+F0 # -> F0 # >
+F0 _ -> rj _ ^
+
+F1 3 -> F1 3 >
+F1 4 -> F1 4 >
+F1 5 -> rj _ ^
+F1 6 -> ToS # <
+F1 # -> F1 # >
+F1 _ -> rj _ ^

@@ -1,0 +1,156 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 0 -> Set# 3 <
+s 1 -> Set# 4 <
+s 3 -> s 3 >
+s 4 -> s 4 >
+s * -> Set# & <
+s & -> s & >
+s # -> s # >
+s _ -> Set+ _ <
+
+Set# 3 -> Set# 3 <
+Set# 4 -> Set# 4 <
+Set# & -> Set# & <
+Set# # -> Set# # <
+Set# _ -> s # >
+
+Set+ 3 -> Set+ 3 <
+Set+ 4 -> Set+ 4 <
+Set+ & -> Set+ & <
+Set+ # -> Set+ # <
+Set+ _ -> Set0 + <
+
+Set0 # -> GetS 0 >
+Set0 _ -> GetS 0 >
+
+GetS 3 -> Set+0 # <
+GetS 4 -> Set+1 # <
+GetS & -> End & >
+GetS + -> GetS + >
+GetS # -> GetS # >
+
+Set+0 0 -> Set0 0 >
+Set+0 1 -> Set0 1 >
+Set+0 3 -> Set+0 3 <
+Set+0 4 -> Set+0 4 <
+Set+0 & -> Set+0 & <
+Set+0 + -> Set0 + >
+Set+0 # -> Set+0 # <
+
+Set+1 0 -> Set1 0 >
+Set+1 1 -> Set1 1 >
+Set+1 3 -> Set+1 3 <
+Set+1 4 -> Set+1 4 <
+Set+1 & -> Set+1 & <
+Set+1 + -> Set1 + >
+Set+1 # -> Set+1 # <
+
+Set1 # -> GetS 1 >
+
+End 3 -> End 3 >
+End 4 -> End 4 >
+End & -> End & >
+End # -> End # >
+End _ -> If _ <
+
+If 3 -> Set+0 _ <
+If 4 -> Add 3 <
+If & -> Del+ _ <
+
+Add 0 -> Add 0 <
+Add 1 -> Add 1 <
+Add 3 -> Add 3 <
+Add 4 -> Add 4 <
+Add + -> Add + <
+Add & -> Add & <
+Add # -> Add # <
+Add _ -> AddS _ >
+
+AddS 0 -> AddS 3 >
+AddS 1 -> AddS 4 >
+AddS + -> End0 + >
+
+End0 0 -> End0 0 >
+End0 1 -> End0 1 >
+End0 # -> Take0 # <
+End0 3 -> Take0 3 <
+End0 4 -> Take0 4 <
+End0 + -> End0 + >
+
+End1 0 -> End1 0 >
+End1 1 -> End1 1 >
+End1 # -> Take1 # <
+End1 3 -> Take1 3 <
+End1 4 -> Take1 4 <
+End1 + -> End1 + >
+
+Take0 0 -> Add00 3 <
+Take0 1 -> Add01 4 <
+Take0 + -> St0 + <
+
+Take1 0 -> Add10 3 <
+Take1 1 -> Add11 4 <
+Take1 + -> St1 + <
+
+St0 0 -> St0 0 <
+St0 1 -> St0 1 <
+St0 3 -> St0 0 <
+St0 4 -> St0 1 <
+St0 _ -> Go+ _ >
+
+St1 0 -> St1 0 <
+St1 1 -> St1 1 <
+St1 3 -> St0 1 <
+St1 4 -> St1 0 <
+St1 _ -> Go+ 1 >
+
+Add00 0 -> Add00 0 <
+Add00 1 -> Add00 1 <
+Add00 3 -> End0 0 >
+Add00 4 -> End0 1 >
+Add00 + -> Add00 + <
+Add00 _ -> End0 0 >
+
+Add01 0 -> Add01 0 <
+Add01 1 -> Add01 1 <
+Add01 3 -> End0 1 >
+Add01 4 -> End1 0 >
+Add01 + -> Add01 + <
+Add01 _ -> End0 1 >
+
+Add10 0 -> Add10 0 <
+Add10 1 -> Add10 1 <
+Add10 3 -> End0 1 >
+Add10 4 -> End1 0 >
+Add10 + -> Add10 + <
+Add10 _ -> End0 1 >
+
+Add11 0 -> Add11 0 <
+Add11 1 -> Add11 1 <
+Add11 3 -> End1 0 >
+Add11 4 -> End1 1 >
+Add11 + -> Add11 + <
+Add11 _ -> End1 0 >
+
+Go+ 0 -> Go+ 0 >
+Go+ 1 -> Go+ 1 >
+Go+ + -> Chg + >
+
+Chg 3 -> Chg 0 >
+Chg 4 -> Chg 1 >
+Chg # -> End # >
+
+Del+ 0 -> Del+ _ <
+Del+ 1 -> Del+ _ <
+Del+ 3 -> Del+ _ <
+Del+ 4 -> Del+ _ <
+Del+ # -> Del+ _ <
+Del+ + -> GoStart _ <
+
+GoStart 0 -> GoStart 0 <
+GoStart 1 -> GoStart 1 <
+GoStart _ -> ac _ >
